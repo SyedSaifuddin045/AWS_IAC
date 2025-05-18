@@ -5,7 +5,7 @@ provider "aws"{
 module "vpc"{
 	source = "../VPC"
 }
-
+y
 module "aws_internet_gateway"{
 	source = "../InternetGateway"
 	vpc_id = module.vpc.vpc_id
